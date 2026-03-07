@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* ── Light theme (default) ── */
+:root,
+[data-theme="light"] {
+  --theme-title-bg: #F0F4F8;
+  --theme-dark-bg: #FFFFFF;
+  --theme-alt-bg: #E8EDF2;
+  --theme-section-bg: #D0DAE4;
+  --theme-header-bg: #B8C8D8;
+  --theme-accent: #D4890A;
+  --theme-steel-blue: #4A7A94;
+  --theme-text: #1A2E3D;
+  --theme-text-secondary: #4A6274;
+  --theme-positive: #6B8F2E;
+  --theme-negative: #C5652A;
+  --theme-card-bg: #FFFFFF;
+  --theme-card-border: #D0DAE4;
+  --theme-card-hover-bg: #F0F4F8;
+  --theme-card-shadow: rgba(0, 0, 0, 0.08);
+  --theme-card-hover-shadow: rgba(0, 0, 0, 0.15);
+}
+
+/* ── Dark theme ── */
+[data-theme="dark"] {
+  --theme-title-bg: #1A2E3D;
+  --theme-dark-bg: #1E3242;
+  --theme-alt-bg: #243A4A;
+  --theme-section-bg: #2A4F65;
+  --theme-header-bg: #345B72;
+  --theme-accent: #F5A623;
+  --theme-steel-blue: #5B8FA8;
+  --theme-text: #FFFFFF;
+  --theme-text-secondary: #A0BCC8;
+  --theme-positive: #9BB55E;
+  --theme-negative: #E88D4F;
+  --theme-card-bg: #243A4A;
+  --theme-card-border: #345B72;
+  --theme-card-hover-bg: #2A4F65;
+  --theme-card-shadow: rgba(0, 0, 0, 0.3);
+  --theme-card-hover-shadow: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: var(--theme-dark-bg);
+  color: var(--theme-text);
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
