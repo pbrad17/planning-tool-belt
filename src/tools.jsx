@@ -15,7 +15,7 @@ const tools = [
   {
     name: 'Loan Amortization',
     description: 'Calculate loan amortization schedules with extra payment support and downloadable PDF reports.',
-    url: 'https://loan-amortization-pbrad17s-projects.vercel.app',
+    url: 'https://loan-amortization-mauve.vercel.app',
     icon: (
       <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-12 h-12">
         <rect x="6" y="8" width="36" height="32" rx="3" stroke="currentColor" strokeWidth="2.5" fill="none" />
