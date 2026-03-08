@@ -12,6 +12,24 @@ const tools = [
       </svg>
     ),
   },
+  {
+    name: 'Loan Amortization',
+    description: 'Calculate loan amortization schedules with extra payment support and downloadable PDF reports.',
+    url: 'https://loan-amortization-pbrad17s-projects.vercel.app',
+    icon: (
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-12 h-12">
+        <rect x="6" y="8" width="36" height="32" rx="3" stroke="currentColor" strokeWidth="2.5" fill="none" />
+        <line x1="6" y1="16" x2="42" y2="16" stroke="currentColor" strokeWidth="2" />
+        <line x1="18" y1="8" x2="18" y2="16" stroke="currentColor" strokeWidth="2" />
+        <line x1="30" y1="8" x2="30" y2="16" stroke="currentColor" strokeWidth="2" />
+        <rect x="11" y="21" width="8" height="5" rx="1" fill="var(--theme-accent)" opacity="0.85" />
+        <rect x="20" y="21" width="8" height="5" rx="1" fill="var(--theme-steel-blue)" opacity="0.85" />
+        <rect x="29" y="21" width="8" height="5" rx="1" fill="var(--theme-header-bg)" opacity="0.85" />
+        <rect x="11" y="29" width="8" height="5" rx="1" fill="var(--theme-steel-blue)" opacity="0.85" />
+        <rect x="20" y="29" width="8" height="5" rx="1" fill="var(--theme-accent)" opacity="0.85" />
+      </svg>
+    ),
+  },
 ]
 
 export default tools
