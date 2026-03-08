@@ -30,6 +30,20 @@ const tools = [
       </svg>
     ),
   },
+  {
+    name: 'PDF Toolkit',
+    description: 'Merge, reorder, and edit PDFs — flatten forms, manage pages, and download modified files.',
+    url: 'https://pdf-toolkit-ashen.vercel.app',
+    icon: (
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-12 h-12">
+        <rect x="8" y="4" width="24" height="32" rx="2" stroke="currentColor" strokeWidth="2.5" fill="none"/>
+        <path d="M32 4l8 8v28a2 2 0 0 1-2 2H8" stroke="currentColor" strokeWidth="2.5" fill="none"/>
+        <rect x="14" y="14" width="12" height="2" rx="1" fill="var(--theme-accent)" opacity="0.85"/>
+        <rect x="14" y="20" width="16" height="2" rx="1" fill="var(--theme-steel-blue)" opacity="0.85"/>
+        <rect x="14" y="26" width="10" height="2" rx="1" fill="var(--theme-header-bg)" opacity="0.85"/>
+      </svg>
+    ),
+  },
 ]
 
 export default tools
