@@ -32,7 +32,7 @@ const tools = [
   },
   {
     name: 'PDF Toolkit',
-    description: 'Merge, reorder, and edit PDFs — flatten forms, manage pages, and download modified files.',
+    description: 'Full PDF editor — edit text, annotate, sign, redact, OCR scans, fill forms, and protect files. Runs entirely in your browser.',
     url: 'https://pdf-toolkit-ashen.vercel.app',
     icon: (
       <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-12 h-12">
